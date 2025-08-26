@@ -1,24 +1,97 @@
-# v-music
+# 🎵 DeeMusic-NextGen
 
-v-music is a web application that allows users to search for music using the Spotify API and play 30-second song previews. It is built with React, Bootstrap, and the Spotify Web API ( throught nocodeapi ).
+[![React](https://img.shields.io/badge/React-v18-blue)](https://reactjs.org/) [![Vite](https://img.shields.io/badge/Vite-v4.3-purple)](https://vitejs.dev/) [![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-v3.3-teal)](https://tailwindcss.com/) [![Axios](https://img.shields.io/badge/Axios-v1.4-orange)](https://axios-http.com/) [![Bootstrap](https://img.shields.io/badge/Bootstrap-v5-purple)](https://getbootstrap.com/) [![React Router](https://img.shields.io/badge/React_Router-v6-blue)](https://reactrouter.com/) [![Spotify Web API](https://img.shields.io/badge/Spotify_API-green)](https://developer.spotify.com/) [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE) [![Desktop Only](https://img.shields.io/badge/Desktop%20Only-Yes-blue)](https://github.com/) [![Spotify Premium Required](https://img.shields.io/badge/Spotify%20Premium-Required-green)](https://www.spotify.com/premium/)
 
-## Installation
+**DeeMusic-NextGen is a modern, web-based music application that lets users search, explore, and play music directly in their PC browser using their Spotify Premium account.**
 
-To run this project locally, follow these steps:
+---
 
-1. Clone this repository using `git clone https://github.com/vishesh-pandey/v-music.git`
-2. Install dependencies using `npm install`
-3. Start the development server using `npm start`
+## 🌟 Overview
 
-## Usage
+Dive into music like never before with DeeMusic-NextGen. Effortlessly browse songs, playlists, and moods through a sleek, responsive interface, and enjoy real-time playback powered by the Spotify Web Playback SDK, all seamlessly managed with React Context and Axios for a smooth, interactive experience. 
 
-Once the development server is running, you can access the app by visiting http://localhost:3000 in your web browser. Here's how to use the app:
+**Important Notes:**  
+- Music playback works **only on PC/Desktop browsers**.  
+- Users must login using a **Spotify Premium account**.  
 
-1. Enter a search term in the search bar and click the "Search" button
-2. The app will fetch a list of tracks from the Spotify API and display them in a grid
-3. Click the "Play" button on a track to play a 30-second preview of the song
-4. Use the audio player controls to pause, resume, and adjust the volume of the song
+---
 
-## Contributing
+## ⚡ Features
 
-If you would like to contribute to this project, feel free to submit a pull request or open an issue. 
+- **Spotify Premium Login** – Securely login with your Spotify Premium account.  
+- **Search Songs & Artists** – Quickly find your favorite tracks.  
+- **Play Music in Browser** – Music can be played on PC browsers (mobile playback disabled).  
+- **Responsive UI** – Works on both desktop and mobile views, with music playback available on desktop browsers only.  
+- **Interactive Controls** – Play, pause, favorite, pin, like songs, and see current track info. 
+- **Mood & Playlist Exploration** – Browse songs based on moods or trending playlists.  
+
+---
+
+## ✨ New Features & Highlights
+
+- **Pin & Like Songs:** Users can pin or like their favorite tracks and see how many songs are pinned or liked.  
+- **Glassmorphism Design:** A new modern UI inspired by Apple Music and iOS 18.6 beta.  
+- **Smooth Animations:** Transitions and interactions throughout the app are now smoother and more engaging.  
+
+---
+
+## ✅ Advantages
+
+- Modern and clean UI using Tailwind CSS and Bootstrap.  
+- Smooth real-time music playback on PC browsers.  
+- Fully responsive and interactive music application.  
+- Easy to maintain and extend React-based project.  
+- Clear separation of components and state management using React Context.  
+
+---
+
+## 📸 Screenshots
+
+### Home Screen
+![Home Screen](./screenshots/Screenshot-521.png)
+
+### Song Cards
+![Song Cards](./screenshots/Screenshot-520.png)
+
+### Pinned Feature
+![Pinned Feature](./screenshots/Screenshot-525.png)
+
+### Liked Feature
+![Liked Feature](./screenshots/Screenshot-526.png)
+
+### Search Results
+![Search Results](./screenshots/Screenshot-524.png)
+
+### Mobile View (Playback Disabled)
+![Mobile View](./screenshots/Screenshot-523.png)
+
+
+
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework:** React v18, React Hooks (useState, useEffect, useContext, useRef), React Context API  
+- **Styling:** Tailwind CSS v3.3, Bootstrap, CSS (Glassmorphism & custom styling)  
+- **API & Data Fetching:** Axios v1.4, Spotify Web API, Spotify Web Playback SDK  
+- **Routing:** React Router (react-router-dom)  
+- **Build Tool:** Vite v4.3  
+- **Language:** JavaScript ES6+
+
+---
+
+## ⚡ Installation
+
+```bash
+# 1. Clone the repository
+git clone <your-repo-link>
+
+# 2. Navigate to the project folder
+cd DeeMusic-NextGen
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm start 
