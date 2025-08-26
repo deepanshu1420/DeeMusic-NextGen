@@ -531,7 +531,7 @@ function App() {
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-dark mt-3"
-                href="https://github.com/Vishesh-Pandey/v-music"
+                href="https://github.com/deepanshu1420/DeeMusic-NextGen.git"
               >
                 <i className="bi bi-github me-2"></i> View on GitHub
               </a>
