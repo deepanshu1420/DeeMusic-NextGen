@@ -4,6 +4,8 @@
 
 **DeeMusic-NextGen is a modern, web-based music application that lets users search, explore, and play music directly in their PC browser using their Spotify Premium account.**
 
+**Live Demo:** [Click here to try DeeMusic-NextGen](https://deemusic-online.netlify.app/) *(Songs playback runs on browser only)*
+
 ---
 
 ## 🌟 Overview
