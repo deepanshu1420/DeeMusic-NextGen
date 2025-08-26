@@ -8,7 +8,11 @@ import { MusicContext } from "./Context";
 
 /** ---------- Spotify Auth (PKCE) helpers ---------- */
 const SPOTIFY_CLIENT_ID = "c9a45ab1f5a449c1818b4c25c119068f";
-const SPOTIFY_REDIRECT_URI = "http://127.0.0.1:3000/callback"; // must match in your dashboard
+const SPOTIFY_REDIRECT_URI =
+  window.location.hostname === "127.0.0.1" ||
+  window.location.hostname === "localhost"
+    ? "http://127.0.0.1:3000/callback"   // local dev
+    : "https://deemusic-online.netlify.app/callback"; // Netlify
 const SPOTIFY_SCOPES = [
   "streaming",
   "user-read-email",
