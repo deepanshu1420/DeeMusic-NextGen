@@ -21,7 +21,7 @@ Dive into music like never before with DeeMusic-NextGen. Effortlessly browse son
 - **Spotify Premium Login** – Securely login with your Spotify Premium account.  
 - **Search Songs & Artists** – Quickly find your favorite tracks.  
 - **Play Music in Browser** – Music can be played on PC browsers (mobile playback disabled).  
-- **Responsive UI** – Works on both desktop and mobile views, with music playback available on desktop browsers only.  
+- **Responsive UI** – Works on both desktop and mobile, with music playback available on desktop browsers only.  
 - **Interactive Controls** – Play, pause, favorite, pin, like songs, and see current track info. 
 - **Mood & Playlist Exploration** – Browse songs based on moods or trending playlists.  
 
