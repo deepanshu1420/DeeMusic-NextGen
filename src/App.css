@@ -1,0 +1,444 @@
+/* =========================
+   Default CRA Styles
+   ========================= */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* =========================
+   Custom Glassmorphism + Animations
+   ========================= */
+
+/* Global Background */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(-45deg, #1db954, #d139cc, #1da72d, #ad3acdf6);
+  background-size: 500% 500%;
+  animation: gradientMove 6s ease infinite;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes gradientMove {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Hero Section */
+.home-hero {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  padding: 60px 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Song Buttons */
+.glass-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.glass-buttons button {
+  background: rgba(190, 94, 178, 0.767);
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Smooth glow + scale hover effect */
+.btn.rounded-pill {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn.rounded-pill:hover {
+  transform: scale(1.05);
+  box-shadow: 
+    0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(255, 255, 255, 0.5),
+    0 0 30px rgba(255, 255, 255, 0.3);
+}
+
+/* Equalizer Animation */
+.equalizer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 4px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.equalizer span {
+  display: block;
+  width: 15px;
+  background: #1db954; /* ✅ Spotify green */
+  animation: bounce 1.2s infinite ease-in-out;
+  box-shadow: 0 0 6px rgba(29,185,84,0.8); /* ✅ glow */
+}
+
+.equalizer span:nth-child(1) { animation-delay: 0s; }
+.equalizer span:nth-child(2) { animation-delay: 0.2s; }
+.equalizer span:nth-child(3) { animation-delay: 0.4s; }
+.equalizer span:nth-child(4) { animation-delay: 0.6s; }
+.equalizer span:nth-child(5) { animation-delay: 0.8s; }
+
+@keyframes bounce {
+  0%, 100% { height: 20%; }
+  50%      { height: 100%; }
+}
+
+/* Song Button Box */
+.song-button-box {
+  border-radius: 40px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+}
+
+/* Navbar */
+.navbar {
+  margin-top: 5px;
+  border-radius: 35px;
+  padding: 0.38rem 0.75rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.28);
+  overflow: hidden;
+  background-clip: padding-box;
+
+  /* ✅ glass effect */
+  background: rgba(0, 0, 0, 0.4) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.navbar .container,
+.navbar .input-group,
+.navbar .form-control,
+.navbar .btn {
+  border-radius: 30px;
+}
+
+/* ✅ Navbar buttons hover */
+.navbar .btn {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.navbar .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.navbar input[type="search"],
+.navbar .search-input,
+.navbar .form-control {
+  border-radius: 30px;
+}
+
+/* GitHub Button */
+.home-hero .btn.btn-dark {
+  border-radius: 999px;
+  padding: 0.5rem 1.05rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.28);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.home-hero .btn.btn-dark:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 36px rgba(0,0,0,0.36);
+}
+
+/* Glass Button */
+.glass-btn {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  backdrop-filter: blur(8px);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 3px 5px 12px rgba(0, 0, 0, 0.2);
+  width: 27%;
+}
+
+.glass-btn:hover {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 15px rgba(0, 255, 150, 0.8);
+  transform: translateY(-2px);
+}
+
+/* Music Card */
+.music-card {
+  border-radius: 45px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.music-card:hover {
+  transform: translateY(-13px) scale(1.02);
+  box-shadow: 10px 12px 25px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.music-card img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.music-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Footer */
+.app-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 23px 0;
+  font-size: 1rem;
+}
+
+.modal-backdrop-blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 1040;
+}
+
+/* ✅ Polished modal look */
+.modal-content {
+  background: rgba(30, 30, 30, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  padding: 20px;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  color: white;
+}
+
+/* =========================
+   Responsive Styles
+   ========================= */
+
+/* Tablets (<= 992px) */
+@media (max-width: 992px) {
+  .home-hero {
+    padding: 35px 12px;
+    border-radius: 30px;   /* ✅ rounded edges */
+  }
+
+  .glass-buttons {
+    gap: 8px;
+  }
+
+  .glass-btn {
+    width: 45%;
+    font-size: 0.95rem;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+    padding: 0.4rem;
+    gap: 10px;  /* ✅ added spacing between items */
+  }
+}
+
+/* Mobile (<= 768px) */
+@media (max-width: 768px) {
+  body {
+    padding: 8px;
+    align-items: flex-start;
+  }
+
+  .home-hero {
+    padding: 15px 8px;
+    border-radius: 50px !important;   /* ✅ rounded edges */
+    margin-bottom: 60px;
+    max-height: 20vh;      
+    overflow-y: inherit;      
+    position: relative;
+  }
+
+  /* shrink headings & text */
+  .home-hero h1 {
+    font-size: 1.7rem;     /* ✅ smaller title */
+    margin-bottom: 6px;
+  }
+
+  .home-hero p {
+    font-size: 0.8rem;    
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+
+  .glass-buttons {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .glass-btn {
+    width: 100%;
+    padding: 6px;         /* ✅ smaller padding */
+    font-size: 0.75rem;   /* ✅ smaller text */
+  }
+
+  .music-card {
+    border-radius: 50px !important; 
+    padding: 5px;
+    font-size: 0.75rem;
+  }
+
+  .equalizer {
+    height: 20px;
+  }
+
+  .equalizer span {
+    width: 6px;
+  }
+
+  .app-footer {
+    font-size: 0.7rem;
+    padding: 8px 0;
+  }
+
+  /* ===== NAVBAR mobile alignment (no JSX changes) ===== */
+  .navbar input[type="search"] {
+    width: 100% !important;
+    margin-top: 6px; /* ✅ responsive fix */
+  }
+
+  /* Group with pin/like + login/logout */
+  .navbar .d-flex.align-items-center {
+    flex-wrap: nowrap;             /* ✅ keep them in one line */
+    justify-content:space-between;/* ✅ space between left & right */
+    width: 100%;                  
+  }
+
+  /* The inner d-flex that contains greeting + logout */
+  .navbar .d-flex.align-items-center > .d-flex.align-items-center {
+    justify-content: flex-end;     /* ✅ push to right */
+    margin-left: 36px;               
+  }
+}
+
+/* Extra small devices (<= 480px) */
+@media (max-width: 480px) {
+  .home-hero {
+    padding: 12px 6px;
+    border-radius: 15px;   /* ✅ rounded edges */
+    margin-bottom: 70px;
+    max-height: 65vh;
+  }
+
+  .home-hero h1 {
+    font-size: 1.2rem;
+  }
+
+  .home-hero p {
+    font-size: 0.75rem;
+  }
+
+  .glass-btn {
+    font-size: 0.7rem;   /* ✅ smaller for tiny screens */
+    padding: 5px;
+  }
+
+  /* Keep navbar items tidy and left-aligned on tiny screens */
+  .navbar {
+    flex-direction: column;
+    gap: 8px;
+    font-size: 0.7rem;
+    align-items: flex-start;
+  }
+
+  .navbar .container-fluid {
+    gap: 8px;
+  }
+
+  .navbar .d-flex.align-items-center {
+    gap: 8px;
+  }
+
+  .navbar .d-flex.align-items-center > .d-flex.align-items-center {
+    flex: 1 1 100%;
+    justify-content: flex-start;
+    gap: 6px;
+  }
+
+  .navbar a, 
+  .navbar button {
+    padding: 5px 8px;
+    font-size: 0.7rem;
+  }
+
+  .navbar .text-light.small {
+    font-size: 0.7rem;
+  }
+
+  .music-card {
+    margin-bottom: 8px;
+    font-size: 0.7rem;
+    padding: 5px;
+    border-radius: 12px;  
+  }
+
+  .equalizer {
+    height: 18px;
+  }
+
+  .equalizer span {
+    width: 5px;
+  }
+}
