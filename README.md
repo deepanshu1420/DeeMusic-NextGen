@@ -32,7 +32,7 @@ Dive into music like never before with DeeMusic-NextGen. Effortlessly browse son
 ## ✨ New Features & Highlights
 
 - **Pin & Like Songs:** Users can pin or like their favorite tracks and see how many songs are pinned or liked.  
-- **Glassmorphism Design:** A modern UI inspired by Apple Music and iOS 18.6 beta.  
+- **Glassmorphism Design:** A modern UI inspired by Apple Music and iOS 26.  
 - **Smooth Animations:** Transitions and interactions throughout the app are now smoother and more engaging.  
 
 ---
@@ -51,21 +51,27 @@ Dive into music like never before with DeeMusic-NextGen. Effortlessly browse son
 
 ### Home Screen
 ![Home Screen](./screenshots/Screenshot-521.png)
+*Dive into a sleek home hub where every track is just one click away.*
 
 ### Song Cards
 ![Song Cards](./screenshots/Screenshot-520.png)
+*Scroll through dynamic song cards that spark instant play with style.*
 
 ### Pinned Feature
 ![Pinned Feature](./screenshots/Screenshot-525.png)
+*Pin your top tracks and bring them to the spotlight whenever you want.*  
 
 ### Liked Feature
 ![Liked Feature](./screenshots/Screenshot-526.png)
+*Hit like and watch your personal playlist build itself in real-time.*
 
 ### Search Results
 ![Search Results](./screenshots/Screenshot-524.png)
+*Type, search, and discover—your favorite music shows up instantly.*
 
 ### Mobile View
 ![Mobile View](./screenshots/Screenshot-523.png)
+*Experience the same powerful features on-the-go with a smooth mobile view.*  
 
 ---
 
