@@ -125,7 +125,7 @@ function App() {
       const jsonData = await response.json();
       setTracks(jsonData.tracks.items);
     } catch (error) {
-      setMessage(error.message);
+      setMessage("To use DeeMusic, upgrade to Spotify Premium!");
     } finally {
       setIsLoading(false);
     }
@@ -154,7 +154,7 @@ function App() {
       url.searchParams.set("code_challenge", challenge);
       window.location.href = url.toString();
     } catch (e) {
-      setMessage(`Login failed: ${e.message}`);
+      setMessage("To use DeeMusic, upgrade to Spotify Premium!");
     }
   };
 
@@ -212,7 +212,7 @@ function App() {
           }
         }
       } catch (e) {
-        setMessage(`Auth error: ${e.message}`);
+        setMessage("To use DeeMusic, upgrade to Spotify Premium!");
       }
     })();
   }, []);
@@ -233,7 +233,7 @@ function App() {
         localStorage.setItem("sp_access_token", newAccess);
         localStorage.setItem("sp_access_token_expiry", String(expiresAt));
       } catch (e) {
-        setMessage(`Refresh failed: ${e.message}`);
+        setMessage("To use DeeMusic, upgrade to Spotify Premium!");
         logoutSpotify();
       }
     }, Math.max(5000, msLeft - 30000));
@@ -251,13 +251,13 @@ function App() {
             "Content-Type": "application/x-www-form-urlencoded",
           },
           body:
-            "grant_type=client_credentials&client_id=a77073181b7d48eb90003e3bb94ff88a&client_secret=68790982a0554d1a83427e061e371507",
+            "grant_type=client_credentials&client_id=c9a45ab1f5a449c1818b4c25c119068f&client_secret=fcb837b5087d4f46958198aad67857da",
         });
         if (!response.ok) throw new Error("Failed to fetch token");
         const jsonData = await response.json();
         setToken(jsonData.access_token);
       } catch (error) {
-        setMessage(error.message);
+        setMessage("To use DeeMusic, upgrade to Spotify Premium!");
       } finally {
         setIsLoading(false);
       }

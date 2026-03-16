@@ -65,6 +65,10 @@ Dive into music like never before with DeeMusic-NextGen. Effortlessly browse son
 ![Liked Feature](./screenshots/Screenshot-526.png)
 *Hit like and watch your personal playlist build itself in real-time.*
 
+### Premium Required
+![Premium Required](./screenshots/Screenshot-527.png)
+*Playback and search features require a Spotify Premium account under Spotify’s updated guidelines.*
+
 ### Search Results
 ![Search Results](./screenshots/Screenshot-524.png)
 *Type, search, and discover—your favorite music shows up instantly.*

@@ -80,7 +80,13 @@ const Navbar = ({
                 <>
                   <span className="text-light small me-2">
                     <i className="bi bi-spotify me-1"></i>
-                    {displayName ? `Hi, ${displayName}` : "Connected"}
+                    {displayName ? (
+                      `Hi, ${displayName}`
+                      ) : (
+                      <>
+                      Connected • <span className="text-warning">Premium Required</span>
+                      </>
+                    )}
                   </span>
                   <button
                     className="btn btn-outline-danger btn-sm"
