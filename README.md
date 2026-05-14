@@ -16,12 +16,12 @@ Dive into music like never before with DeeMusic-NextGen. Effortlessly browse son
 
 ## ⚡ Features
 
-- **Spotify Premium Login** – Securely login with your Spotify Premium account.  
-- **Search Songs & Artists** – Quickly find your favorite tracks.  
-- **Play Music in Browser** – Music can be played on both desktop and mobile browsers.  
-- **Responsive UI** – Works on all device sizes.  
-- **Interactive Controls** – Play, pause, favorite, pin, like songs, and see current track info. 
-- **Mood & Playlist Exploration** – Browse songs based on moods or trending playlists.  
+- **Spotify Premium Login** - Securely login with your Spotify Premium account.  
+- **Search Songs & Artists** - Quickly find your favorite tracks.  
+- **Play Music in Browser** - Music can be played on both desktop and mobile browsers.  
+- **Responsive UI** - Works on all device sizes.  
+- **Interactive Controls** - Play, pause, favorite, pin, like songs, and see current track info. 
+- **Mood & Playlist Exploration** - Browse songs based on moods or trending playlists.  
 
 ## ✨ New Features & Highlights
 
@@ -39,31 +39,31 @@ Dive into music like never before with DeeMusic-NextGen. Effortlessly browse son
 
 ## 📸 Screenshots
 
-### Home Screen
+### 🏠 Home Screen
 ![Home Screen](./screenshots/Screenshot-521.png)
 *Dive into a sleek home hub where every track is just one click away.*
 
-### Song Cards
+### 🎵 Song Cards
 ![Song Cards](./screenshots/Screenshot-520.png)
 *Scroll through dynamic song cards that spark instant play with style.*
 
-### Pinned Feature
+### 📌 Pinned Feature
 ![Pinned Feature](./screenshots/Screenshot-525.png)
 *Pin your top tracks and bring them to the spotlight whenever you want.*  
 
-### Liked Feature
+### ❤️ Liked Feature
 ![Liked Feature](./screenshots/Screenshot-526.png)
 *Hit like and watch your personal playlist build itself in real-time.*
 
-### Premium Required
+### 🔒 Premium Required
 ![Premium Required](./screenshots/Screenshot-527.png)
 *Playback and search features require a Spotify Premium account under Spotify’s updated guidelines.*
 
-### Search Results
+### 🔍 Search Results
 ![Search Results](./screenshots/Screenshot-524.png)
 *Type, search, and discover—your favorite music shows up instantly.*
 
-### Mobile View
+### 📱 Mobile View
 ![Mobile View](./screenshots/Screenshot-523.png)
 *Experience the same powerful features on-the-go with a smooth mobile view.*  
 
