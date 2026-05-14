@@ -57,7 +57,7 @@ Dive into music like never before with DeeMusic-NextGen, effortlessly browse son
 
 ### 🔒 Premium Required
 ![Premium Required](./screenshots/Screenshot-527.png)
-*Playback and search features require a Spotify Premium account under Spotify’s updated guidelines.*
+*Playback and search features require a `Spotify Premium account` under Spotify’s updated guidelines.*
 
 ### 🔍 Search Results
 ![Search Results](./screenshots/Screenshot-524.png)
