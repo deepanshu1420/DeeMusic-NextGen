@@ -16,7 +16,7 @@ Dive into music like never before with DeeMusic-NextGen, effortlessly browse son
 
 ## ⚡ Features
 
-- **Spotify Premium Login** - Securely login with your `Spotify Premium account`.  
+- **Spotify Premium Login** - Securely login with your Spotify Premium account.  
 - **Search Songs & Artists** - Quickly find your favorite tracks.  
 - **Play Music in Browser** - Music can be played on both desktop and mobile browsers.  
 - **Responsive UI** - Works on all device sizes.  
