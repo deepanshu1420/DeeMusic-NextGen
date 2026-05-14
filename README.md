@@ -8,7 +8,7 @@
 
 ## 🌟 Overview
 
-Dive into music like never before with DeeMusic-NextGen. Effortlessly browse songs, playlists and moods through a sleek, responsive interface, and enjoy real-time playback powered by the Spotify Web Playback SDK, all seamlessly managed with React Context and Axios for a smooth, interactive experience. 
+Dive into music like never before with DeeMusic-NextGen, effortlessly browse songs, playlists and moods through a sleek, responsive interface and enjoy real-time playback powered by the Spotify Web Playback SDK, all seamlessly managed with React Context and Axios for a smooth, interactive experience. 
 
 **Important Notes:**  
 - Users must login using a **Spotify Premium account**.  
