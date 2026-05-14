@@ -4,9 +4,7 @@
 
 **DeeMusic-NextGen is a modern, web-based music application that lets users search, explore, and play music directly in their browser using their Spotify Premium account.**
 
-**🌐 Live Demo:** [Listen DeeMusic](https://deemusic-online.netlify.app/)&nbsp;&nbsp;&nbsp;&nbsp;(Open the link in PC or mobile browser)
-
----
+**🌐 Live Demo :** [Listen DeeMusic!](https://deemusic-online.netlify.app/)&nbsp;&nbsp;&nbsp;&nbsp;(Open the link in PC or mobile browser)
 
 ## 🌟 Overview
 
@@ -15,8 +13,6 @@ Dive into music like never before with DeeMusic-NextGen. Effortlessly browse son
 **Important Notes:**  
 - Users must login using a **Spotify Premium account**.  
 - Music playback works on both **desktop and mobile browsers**.  
-
----
 
 ## ⚡ Features
 
@@ -27,15 +23,11 @@ Dive into music like never before with DeeMusic-NextGen. Effortlessly browse son
 - **Interactive Controls** – Play, pause, favorite, pin, like songs, and see current track info. 
 - **Mood & Playlist Exploration** – Browse songs based on moods or trending playlists.  
 
----
-
 ## ✨ New Features & Highlights
 
 - **Pin & Like Songs:** Users can pin or like their favorite tracks and see how many songs are pinned or liked.  
 - **Glassmorphism Design:** A modern UI inspired by Apple Music and iOS 26.  
 - **Smooth Animations:** Transitions and interactions throughout the app are now smoother and more engaging.  
-
----
 
 ## ✅ Advantages
 
@@ -44,8 +36,6 @@ Dive into music like never before with DeeMusic-NextGen. Effortlessly browse son
 - Fully responsive and interactive music application.  
 - Easy to maintain and extend React-based project.  
 - Clear separation of components and state management using React Context.  
-
----
 
 ## 📸 Screenshots
 
@@ -77,8 +67,6 @@ Dive into music like never before with DeeMusic-NextGen. Effortlessly browse son
 ![Mobile View](./screenshots/Screenshot-523.png)
 *Experience the same powerful features on-the-go with a smooth mobile view.*  
 
----
-
 ## 🛠 Tech Stack
 
 - **Framework:** React v18, React Hooks (useState, useEffect, useContext, useRef), React Context API  
@@ -88,19 +76,35 @@ Dive into music like never before with DeeMusic-NextGen. Effortlessly browse son
 - **Build Tool:** Vite v4.3  
 - **Language:** JavaScript ES6+  
 
----
+## 🛠️ Setup and Installation
 
-## ⚡ Installation
+Follow these steps to run the project locally on your machine:
+
+### 1️⃣ Clone the Repository
 
 ```bash
-# 1. Clone the repository
-git clone <your-repo-link>
+git clone https://github.com/deepanshu1420/DeeMusic-NextGen.git
+```
 
-# 2. Navigate to the project folder
+### 2️⃣ Navigate to the project folder
+
+```bash
 cd DeeMusic-NextGen
+```
 
-# 3. Install dependencies
+### 3️⃣ Install Dependencies
+
+Make sure you have **Node.js** installed, then run:
+
+```bash
 npm install
+```
 
-# 4. Start the development server
+### 4️⃣ Start the development server
+
+```bash
 npm start
+```
+
+The app should now be running locally 🎵
+**DeeMusic by Deepanshu Sharma ❤️**
