@@ -107,5 +107,4 @@ npm start
 ```
 
 The app should now be running locally 🎵  
- 
-**DeeMusic by Deepanshu Sharma ❤️**
+
