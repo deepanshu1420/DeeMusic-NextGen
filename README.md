@@ -20,7 +20,7 @@ Dive into music like never before with DeeMusic-NextGen, effortlessly browse son
 - **Search Songs & Artists** - Quickly find your favorite tracks.  
 - **Play Music in Browser** - Music can be played on both desktop and mobile browsers.  
 - **Responsive UI** - Works on all device sizes.  
-- **Interactive Controls** - Play, pause, favorite, pin, like songs and see current track info. 
+- **Interactive Controls** - Play, pause, pin, like favorite songs and see current track info. 
 - **Mood & Playlist Exploration** - Browse songs based on moods or trending playlists.  
 
 ## ✨ New Features & Highlights
