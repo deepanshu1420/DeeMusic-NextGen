@@ -37,7 +37,7 @@ Dive into music like never before with DeeMusic-NextGen, effortlessly browse son
 - 🛠️ Easy to maintain and extend React-based project.  
 - 🧠 Clear separation of components and state management using React Context.  
 
-## 📸 Screenshots
+## 📸 Screenshots / Demo
 
 ### 🏠 Home Screen
 ![Home Screen](./screenshots/Screenshot-521.png)
