@@ -67,7 +67,7 @@ Dive into music like never before with DeeMusic-NextGen, effortlessly browse son
 ![Mobile View](./screenshots/Screenshot-523.png)
 *Experience the same powerful features on-the-go with a smooth mobile view.*  
 
-## 🛠 Tech Stack
+## 🛠 Tech Stack Used
 
 - **⚛️ Framework:** React v18, React Hooks (useState, useEffect, useContext, useRef), React Context API  
 - **🎨 Styling:** Tailwind CSS v3.3, Bootstrap, CSS (Glassmorphism & custom styling)  
