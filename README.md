@@ -16,26 +16,26 @@ Dive into music like never before with DeeMusic-NextGen, effortlessly browse son
 
 ## ⚡ Features
 
-- **Spotify Premium Login** - Securely login with your Spotify Premium account.  
-- **Search Songs & Artists** - Quickly find your favorite tracks.  
-- **Play Music in Browser** - Music can be played on both desktop and mobile browsers.  
-- **Responsive UI** - Works on all device sizes.  
-- **Interactive Controls** - Play, pause, pin, like favorite songs and see current track info. 
-- **Mood & Playlist Exploration** - Browse songs based on moods or trending playlists.  
+- **🔐 Spotify Premium Login** - Securely login with your Spotify Premium account.  
+- **🔎 Search Songs & Artists** - Quickly find your favorite tracks.  
+- **🎵 Play Music in Browser** - Music can be played on both desktop and mobile browsers.  
+- **📱 Responsive UI** - Works on all device sizes.  
+- **🎛️ Interactive Controls** - Play, pause, pin, like favorite songs and see current track info. 
+- **🌈 Mood & Playlist Exploration** - Browse songs based on moods or trending playlists.  
 
 ## ✨ New Features & Highlights
 
-- **Pin & Like Songs:** Users can pin or like their favorite tracks and see how many songs are pinned or liked.  
-- **Glassmorphism Design:** A modern UI inspired by Apple Music and iOS 26.  
-- **Smooth Animations:** Transitions and interactions throughout the app are now smoother and more engaging.  
+- **📌 Pin & Like Songs:** Users can pin or like their favorite tracks and see how many songs are pinned or liked.  
+- **🪟 Glassmorphism Design:** A modern UI inspired by Apple Music and iOS 26.  
+- **✨ Smooth Animations:** Transitions and interactions throughout the app are now smoother and more engaging.  
 
 ## ✅ Advantages
 
-- Modern and clean UI using Tailwind CSS and Bootstrap.  
-- Smooth real-time music playback on desktop and mobile.  
-- Fully responsive and interactive music application.  
-- Easy to maintain and extend React-based project.  
-- Clear separation of components and state management using React Context.  
+- 🎨 Modern and clean UI using Tailwind CSS and Bootstrap.  
+- 🎧 Smooth real-time music playback on desktop and mobile.  
+- 📱 Fully responsive and interactive music application.  
+- 🛠️ Easy to maintain and extend React-based project.  
+- 🧠 Clear separation of components and state management using React Context.  
 
 ## 📸 Screenshots
 
@@ -69,14 +69,14 @@ Dive into music like never before with DeeMusic-NextGen, effortlessly browse son
 
 ## 🛠 Tech Stack
 
-- **Framework:** React v18, React Hooks (useState, useEffect, useContext, useRef), React Context API  
-- **Styling:** Tailwind CSS v3.3, Bootstrap, CSS (Glassmorphism & custom styling)  
-- **API & Data Fetching:** Axios v1.4, Spotify Web API, Spotify Web Playback SDK  
-- **Routing:** React Router (react-router-dom)  
-- **Build Tool:** Vite v4.3  
-- **Language:** JavaScript ES6+  
+- **⚛️ Framework:** React v18, React Hooks (useState, useEffect, useContext, useRef), React Context API  
+- **🎨 Styling:** Tailwind CSS v3.3, Bootstrap, CSS (Glassmorphism & custom styling)  
+- **🔗 API & Data Fetching:** Axios v1.4, Spotify Web API, Spotify Web Playback SDK  
+- **🧭 Routing:** React Router (react-router-dom)  
+- **⚡ Build Tool:** Vite v4.3  
+- **🟨 Language:** JavaScript ES6+  
 
-## 🛠️ Setup and Installation
+## ⚙️ Setup and Installation
 
 Follow these steps to run the project locally on your machine:
 
